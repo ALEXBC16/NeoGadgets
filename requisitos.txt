@@ -1,0 +1,37 @@
+ Cabecera con logo en todas las páginas.
+ Barra de navegación con enlaces a los distintos apartados.
+ Pie de página con información sobre el autor.
+
+Apartado: Inicio
+ Explicación en 3-4 párrafos sobre la creación y funcionamiento de la página.
+
+Apartado: Productos
+ Al menos 3 productos, cada uno con:
+
+Imagen en miniatura (al hacer clic, abre la imagen original en otra pestaña).
+Nombre del producto como enlace a una página de detalles.
+Precio.
+Pequeña descripción.
+Página de detalles de cada producto
+ Información detallada con:
+
+Imagen más grande (al hacer clic, abre la imagen original en otra pestaña).
+Nombre del producto.
+Precio.
+Detalles específicos del producto.
+Botón "Añadir al carrito" (sin funcionalidad real).
+Apartado: Contacto
+ Información de contacto con:
+
+Dirección.
+Teléfono.
+Redes sociales.
+Mapa con la ubicación de la tienda.
+Apartado: Registro
+ Formulario de registro con:
+
+Campos de texto (nombre, usuario, etc.).
+Campo de contraseña.
+Campo de fecha.
+Campo de teléfono.
+Restricciones de tamaño y obligatoriedad en los campos
