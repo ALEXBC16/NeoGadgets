@@ -2,11 +2,6 @@
  Barra de navegación con enlaces a los distintos apartados.
  Pie de página con información sobre el autor.
 
-Apartado: Inicio
- Explicación en 3-4 párrafos sobre la creación y funcionamiento de la página.
-
-Apartado: Productos
- Al menos 3 productos, cada uno con:
 
 Imagen en miniatura (al hacer clic, abre la imagen original en otra pestaña).
 Nombre del producto como enlace a una página de detalles.
