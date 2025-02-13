@@ -2,6 +2,7 @@
  Barra de navegación con enlaces a los distintos apartados(Inicio, Productos, Contacto, Registro) 
  Pie de página con información sobre el autor.
 
+<<<<<<< HEAD
 Apartado: Inicio
   Explicación en 3-4 párrafos sobre la creación y funcionamiento de la página.
 
@@ -13,6 +14,8 @@ Apartado: Productos
   Pequeña descripción.
   Página de detalles de cada producto
   Información detallada con:
+=======
+>>>>>>> cd81c8135bd0a71aecb2767b2cb64c6d3c42a674
 
 Detalles del producto:
   Imagen más grande (al hacer clic, abre la imagen original en otra pestaña).
