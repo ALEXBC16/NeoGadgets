@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: pink;
 }
+
+/*------------------------------------Header---------------------------------------*/
 .navbar {
     
     background-color: hsl(0, 2%, 67%);
@@ -25,5 +27,7 @@ body {
     background-color: #54e5ea;
     border-radius: 10px;
 }
+
+/*---------------------------------------------------------------------------------------*/
 
 
