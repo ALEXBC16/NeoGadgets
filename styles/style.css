@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: pink;
+    background-color: rgb(95, 35, 45);
 }
 .navbar {
     
@@ -26,4 +26,8 @@ body {
     border-radius: 10px;
 }
 
+/*-------------------------------FOOTER---------------------------------------------*/
 
+.nav-item a:hover{
+    background-color: #54e5ea;
+}
