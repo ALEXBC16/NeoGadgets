@@ -28,6 +28,13 @@ body {
 
 /*-------------------------------FOOTER---------------------------------------------*/
 
-.nav-item a:hover{
-    background-color: #54e5ea;
+.icon {
+    font-size: 2rem;
+    color: #12cbd4; /* color */
+    display: inline-block; /* Para que transform funcione bien */
+}
+
+.icon-link:hover .icon {
+    color: #ff6600; /* Cambia el color */
+    transform: scale(1.3); /* Agranda el icono */
 }
