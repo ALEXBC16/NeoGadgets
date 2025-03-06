@@ -71,6 +71,12 @@ main img {
     border-radius: 10px;
 }
 /*--------------------FORMULARIOS-------------------------------------*/
+.acceder{
+    margin-top:200px;
+}
+.acceder img{
+    height: 300px;
+}
 
 #registroForm{
     margin: 150px;
@@ -78,6 +84,7 @@ main img {
 
 .bton-custom {
     background-color: #12cbd4;
+    margin-bottom: 200px;
 }
 .bton-custom:hover {
     background-color: #ff6600;
