@@ -70,7 +70,19 @@ main img {
     height: auto;
     border-radius: 10px;
 }
+/*--------------------FORMULARIOS-------------------------------------*/
 
+#registroForm{
+    margin: 150px;
+}
+
+.bton-custom {
+    background-color: #12cbd4;
+}
+.bton-custom:hover {
+    background-color: #ff6600;
+}
+/*--------------------------------------------------------------------*/
 .icon {
     font-size: 2rem;
     color: #12cbd4;

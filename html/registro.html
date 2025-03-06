@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../styles/style.css">
+        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="../styles/style.css">
     </head>
 <body>
     <nav class="navbar navbar-expand-lg ">
@@ -22,52 +23,56 @@
                     <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="./productos.html">Productos</a></li>
                     <li class="nav-item"><a class="nav-link" href="./informacion.html">Informacion</a></li>
-                    <li class="nav-item"><a class="nav-link disabled" aria-disabled="true"href="#">Regis/Acceder</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Regis/Acceder</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container mt-5">
-        <h2 class="mb-4">Registro de usuario</h2>
-        <form>
-            <div class="mb-3">
-                <label for="username" class="form-label">Nombre de usuario</label>
-                <input type="text" class="form-control" id="username" required>
-            </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="password" required>
-            </div>
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nombre" required>
-            </div>
-            <div class="mb-3">
-                <label for="apellidos" class="form-label">Apellidos</label>
-                <input type="text" class="form-control" id="apellidos" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="mb-3">
-                <label for="direccion" class="form-label">Dirección</label>
-                <input type="text" class="form-control" id="direccion">
-            </div>
-            <div class="mb-3">
-                <label for="fechaNacimiento" class="form-label">Fecha de nacimiento</label>
-                <input type="date" class="form-control" id="fechaNacimiento" required>
-            </div>
-            <div class="mb-3">
-                <label for="telefono" class="form-label">Número de teléfono</label>
-                <input type="tel" class="form-control" id="telefono" required>
-            </div>
-            <div class="mb-3 text-end">
-            ¿Ya tines una cuenta?<a href="./acceder.html">Acceder</a>
-            </div>
-            <button type="submit" class="btn btn-primary">Registrar</button>
-        </form>
+    <form id="registroForm">
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="w-50">
+            <h2 class="mb-4 text-center">Registro de Usuario</h2>
+            
+                <div class="mb-3">
+                    <label for="username" class="form-label">Nombre de usuario</label>
+                    <input type="text" class="form-control w-100" id="username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control w-100" id="password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control w-100" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="apellidos" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control w-100" id="apellidos" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control w-100" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="direccion" class="form-label">Dirección</label>
+                    <input type="text" class="form-control w-100" id="direccion">
+                </div>
+                <div class="mb-3">
+                    <label for="fechaNacimiento" class="form-label">Fecha de nacimiento</label>
+                    <input type="date" class="form-control w-100" id="fechaNacimiento" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Número de teléfono</label>
+                    <input type="tel" class="form-control w-100" id="telefono" required>
+                </div>
+                <div class="mb-3 text-end">
+                    ¿Ya tienes una cuenta? <a href="./acceder.html">Acceder</a>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 bton-custom">Registrar</button>
+            
+        </div>
     </div>
+    </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <footer class="py-3 my-4">
@@ -86,10 +91,10 @@
 
                 <div class="col">
                     <p class="text-center mt-5 py-3">
-                        <a href="https://github.com" target="_blank" class="mx-2 icon-link">
+                        <a href="https://github.com/ALEXBC16" target="_blank" class="mx-2 icon-link">
                             <i class="bi bi-github icon"></i>
                         </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="mx-2 icon-link">
+                        <a href="https://www.linkedin.com/in/alejandro-lópez-pedreira-19a28127a/" target="_blank" class="mx-2 icon-link">
                             <i class="bi bi-linkedin icon"></i>
                         </a>
                         <a href="https://www.infojobs.net" target="_blank" class="mx-2 icon-link">
@@ -99,10 +104,10 @@
                 </div>
                 <div class="col">
                     <p class="text-center mt-5 py-3">
-                        <a href="https://github.com" target="_blank" class="mx-2 icon-link">
+                        <a href="https://github.com/Xenxo01" target="_blank" class="mx-2 icon-link">
                             <i class="bi bi-github icon"></i>
                         </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="mx-2 icon-link">
+                        <a href="https://www.linkedin.com/in/xenxo-taboas-alonso-652293266/" target="_blank" class="mx-2 icon-link">
                             <i class="bi bi-linkedin icon"></i>
                         </a>
                         <a href="https://www.infojobs.net" target="_blank" class="mx-2 icon-link">
