@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet" href="../styles/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>NeoGadgets - Productos</title>
+</head>
 <body>
-    <nav class="navbar navbar-expand-lg ">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="../media/img/NeoGadgets.png" alt="Logo" >
+                <img src="../media/img/NeoGadgets.apif" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,58 +23,101 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="informacion.html">Informacion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="informacion.html">Información</a></li>
                     <li class="nav-item"><a class="nav-link" href="acceder.html">Registro/Acceder</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Sección de productos -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Tarjeta 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../media/img/altavoz.apif" class="card-img-top" alt="Teclado Mecánico">
+                    <div class="card-body">
+                        <h5 class="card-title">Altavoz bluetooth</h5>
+                        <p class="card-text">Altavoz bluetooth 5.2, conexion jack, puerto usb-c, ranura micro SD</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../media/img/raton.apif" class="card-img-top" alt="Ratón Inalámbrico">
+                    <div class="card-body">
+                        <h5 class="card-title">Viper 3 mini</h5>
+                        <p class="card-text">Diseño ultraligero (61g), sensor optico 8500 DPI, Luces RGB, 6 botones programables</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../media/img/hdmi.apif" class="card-img-top" alt="HDMI">
+                    <div class="card-body">
+                        <h5 class="card-title">HDMI 2.1</h5>
+                        <p class="card-text">HDMI 2.1 4k 120Hz, 8k 60Hz, cable trenzado</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
     <footer class="py-3 my-4">
-
         <div class="container text-center">
-            
             <div class="row row-cols-2">
-                
                 <div class="col">
-                    <div class="nav-item px-2 ">Alejandro López Pedreira</div>
+                    <div class="nav-item px-2">Alejandro López Pedreira</div>
                 </div>
-              
                 <div class="col">
-                    <div class="nav-item px-2 ">Xenxo Taboas Alonso</div>
+                    <div class="nav-item px-2">Xenxo Taboas Alonso</div>
                 </div>
-
                 <div class="col">
-                    <p class="text-center mt-5 py-3">
-                        <a href="https://github.com" target="_blank" class="mx-2 icon-link">
+                    <p class="text-center py-1">
+                        <a href="https://github.com/ALEXBC16" target="_blank" class="mx-2 icon-link" aria-label="Perfil de GitHub">
                             <i class="bi bi-github icon"></i>
                         </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="mx-2 icon-link">
+                        <a href="https://www.linkedin.com/in/alejandro-lópez-pedreira-19a28127a/" target="_blank" class="mx-2 icon-link" aria-label="Perfil de LinkedIn">
                             <i class="bi bi-linkedin icon"></i>
                         </a>
-                        <a href="https://www.infojobs.net" target="_blank" class="mx-2 icon-link">
+                        <a href="https://alejandro-lopez-pedreira-portfolio.vercel.app" target="_blank" class="mx-2 icon-link" aria-label="Portfolio">
                             <i class="bi bi-briefcase icon"></i>
                         </a>
                     </p>
                 </div>
-
                 <div class="col">
-                    <p class="text-center mt-5 py-3">
-                        <a href="https://github.com" target="_blank" class="mx-2 icon-link">
+                    <p class="text-center py-1">
+                        <a href="https://github.com" target="_blank" class="mx-2 icon-link" aria-label="Perfil de GitHub">
                             <i class="bi bi-github icon"></i>
                         </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="mx-2 icon-link">
+                        <a href="https://www.linkedin.com" target="_blank" class="mx-2 icon-link" aria-label="Perfil de LinkedIn">
                             <i class="bi bi-linkedin icon"></i>
                         </a>
-                        <a href="https://www.infojobs.net" target="_blank" class="mx-2 icon-link">
+                        <a href="https://www.infojobs.net" target="_blank" class="mx-2 icon-link" aria-label="Perfil en InfoJobs">
                             <i class="bi bi-briefcase icon"></i>
                         </a>
                     </p>
                 </div>
-          </div>
-        <p class="text-center ">© 2025 Todos los derechos reservados</p>
+            </div>
+            <p class="text-center ">© 2025 Todos los derechos reservados</p>
+        </div>
     </footer>
 
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
