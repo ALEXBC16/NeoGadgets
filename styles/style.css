@@ -71,12 +71,20 @@ main img {
     border-radius: 10px;
 }
 
+.acceder{
+    margin-top:200px;
+}
+.acceder img{
+    height: 300px;
+}
+
 #registroForm {
     margin: 150px;
 }
 
 .bton-custom {
     background-color: #12cbd4;
+    margin-bottom: 200px;
 }
 
 .bton-custom:hover {
