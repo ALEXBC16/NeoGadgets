@@ -39,6 +39,12 @@ body {
     padding: 5px 10px;
 }
 
+form {
+    background-color: #f8f9fa;
+    padding: 0px;
+    border-radius: 10px;
+}
+
 main {
     background-color: #f8f9fa;
     padding: 40px;
@@ -71,11 +77,27 @@ main img {
     border-radius: 10px;
 }
 
-.acceder{
-    margin-top:200px;
-}
 .acceder img{
     height: 300px;
+}
+
+.acceder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.acceder input, .acceder button {
+    max-width: 400px;
+}
+
+.acceder input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #333;
 }
 
 #registroForm {
@@ -125,13 +147,6 @@ main img {
     border-radius: 15px;
     justify-content: center;
     align-items: center;
-}
-
-.color {
-    color: rgb(82, 79, 79);
-    font-size: 2rem; 
-    opacity: 1; 
-    transition: opacity 0.3s ease;
 }
 
 footer {

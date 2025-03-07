@@ -1,70 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet" href="../styles/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
 <body>
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="../media/img/NeoGadgets.png" alt="Logo" >
+                <img src="../media/img/NeoGadgets.png" alt="Logotipo de NeoGadgets, tienda de accesorios informáticos">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú de navegación">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="informacion.html">Informacion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="informacion.html">Información</a></li>
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Registro/Acceder</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <form>
-        <div class="container d-flex justify-content-center align-items-center vh-100">
-            <div class="w-50 acceder">
-                <h2 class="mb-4 text-center">Acceso de usuario</h2>
-                <div class="mb-4 text-center"><img src="../media/img/NeoGadgets.png" alt="Logo" ></div>
-                    <div class="mb-3">
-                        <label for="username" class="form-label">Nombre de usuario</label>
-                        <input type="text" class="form-control w-100" id="username" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control w-100" id="password" required>
-                    </div>
-                    <div class="mb-3 text-end">
-                        ¿Ya tienes una cuenta? <a href="./registro.html">Registrate</a>
-                    </div>
-                    <button type="submit" class="btn btn-primary w-100 bton-custom">Accede</button>
-                
-            </div>
-        </div>
-        </form>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <footer class="py-3 my-4">
 
+    <main class="container my-5">
+        <section class="text-center">
+            <form>
+                <div class="container d-flex justify-content-center align-items-center min-vh-100">
+                    <div class="row w-100 w-md-75 w-lg-50 p-4 rounded d-flex align-items-center">
+                        <!-- Columna izquierda: Imagen -->
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <img src="../media/img/NeoGadgets.png" alt="Logo" class="img-fluid">
+                        </div>
+                        <!-- Columna derecha: Formulario -->
+                        <div class="col-md-6 d-flex flex-column justify-content-center">
+                            <h1 class="mb-4 text-center">Acceso de usuario</h1>
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Nombre de usuario</label>
+                                <input type="text" class="form-control" id="username" required placeholder="Ej: Pepito123">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="password" required>
+                            </div>
+                            <div class="mb-3 text-end">
+                                ¿Ya tienes una cuenta? <a href="./registro.html">Regístrate</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Accede</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="py-3 my-4">
         <div class="container text-center">
-            
-            <div class="row row-cols-2">
-                
+            <div class="row row-cols-1 row-cols-md-2">
                 <div class="col">
                     <div class="nav-item px-2">Alejandro López Pedreira</div>
                 </div>
-              
                 <div class="col">
                     <div class="nav-item px-2">Xenxo Taboas Alonso</div>
                 </div>
                 <div class="col">
-                    <p class="text-center mt-5 py-3">
+                    <p class="text-center mt-3">
                         <a href="https://github.com" target="_blank" class="mx-2 icon-link">
                             <i class="bi bi-github icon"></i>
                         </a>
@@ -76,22 +84,9 @@
                         </a>
                     </p>
                 </div>
-
-                <div class="col">
-                    <p class="text-center mt-5 py-3">
-                        <a href="https://github.com" target="_blank" class="mx-2 icon-link">
-                            <i class="bi bi-github icon"></i>
-                        </a>
-                        <a href="https://www.linkedin.com" target="_blank" class="mx-2 icon-link">
-                            <i class="bi bi-linkedin icon"></i>
-                        </a>
-                        <a href="https://www.infojobs.net" target="_blank" class="mx-2 icon-link">
-                            <i class="bi bi-briefcase icon"></i>
-                        </a>
-                    </p>
-                </div>
-          </div>
-        <p class="text-center ">© 2025 Todos los derechos reservados</p>
+            </div>
+        </div>
+        <p class="text-center">© 2025 Todos los derechos reservados</p>
     </footer>
 </body>
 </html>
